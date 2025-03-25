@@ -8,7 +8,8 @@ This project contains Jupyter notebooks for training and evaluating two models:
 
 CycuNet: A deep learning model for hyperspectral unmixing.
 MiSiCNet: A model that uses single-image training for endmember extraction and abundance estimation.
-Additionally, a Python script (MiSiCNet_tools.py) provides preprocessing functions for MiSiCNet.
+Additionally, a Python script (MiSiCNet_tools.py) provides preprocessing functions for MiSiCNet and a Python script (load_A) contains a dictionary of endmembers used to generate a synthethic dataset of hyperspectral images with geometric forms stored in 'generated HSI' that can used to train and evaluate models. 
+'data_generation' notebook contains code to generate such images. 
 
 
 Installation
